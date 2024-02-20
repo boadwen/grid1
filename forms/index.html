@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js">
+        const name = document.querySelector('#username')
+const greetBtn = document.querySelector('.btn')
+const greeting = document.querySelector('.greeting')
+
+greetBtn.addEventListener('click', (event) => {
+    greeting.innerText = `hello ${name.value}`
+})
+    </script>
+</head>
+<body>
+    <div class="container">
+          <div class="room" id="header">header</div>
+          <div class="room" id="sidebar">sidebar</div>
+          <div class="room" id="nav">nav</div>
+          <div class="room" id="article">
+            <h2>article</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio natus, id ipsa iure earum beatae sint illo ratione repellat voluptas labore facilis, alias dolores aut, consequatur sapiente ea eligendi sunt.
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, maxime. Quo rem quas, quod cumque ex ipsa tempore accusantium fuga expedita voluptas voluptatum dolore aspernatur dolorem! Accusantium dicta veritatis aspernatur?
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum dignissimos ducimus quisquam optio voluptatum, dicta laudantium eius soluta quod est esse minus, explicabo, commodi animi adipisci iure aut deserunt consequuntur.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem quae sed ipsum. Ex dolor cumque sint laborum laboriosam ab? Fuga ab quas odio saepe ea maiores reprehenderit dignissimos, quam similique.
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat voluptate quo mollitia praesentium sit rem maiores nemo ipsa ducimus ratione eveniet dignissimos deserunt corrupti, voluptas atque sunt corporis, dolores similique.
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Modi eaque consequuntur excepturi vel soluta, repudiandae molestias dolorem possimus labore consequatur iste expedita ipsa temporibus iure quo, eos asperiores. Deleniti, hic!
+            </p>
+          </div>
+          <div class="room" id="footer">footer</div>
+    </div>
+</body>
+</html>
